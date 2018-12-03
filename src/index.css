@@ -8,6 +8,189 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#hero-text {
+  text-align: left;
+}
+
+#header {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+#hero-image {
+  height: 400px;
+}
+
+#brand-recognition {
+  margin-top: 30px;
+  padding: 15px;
+}
+
+#hero-row {
+  background-image: linear-gradient(to bottom right, #96EFED, #41A3A2);
+}
+
+#hero-p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 1.3em;
+}
+
+#demo-button {
+ background-color: white;
+ font-size: .9em;
+ padding-left: 90px;
+ padding-right: 90px;
+ height: 45px;
+}
+
+#carousel-container {
+  position: relative;
+}
+
+#carousel {
+  position: absolute;
+}
+
+#demo-button-container {
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  top: 400px;
+}
+
+#bottom-demo-button {
+  background-color: #509CA2;
+  color: white;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+#featured-h6 {
+  color: #A5A6AA;
+  padding-bottom: 20px;
+}
+
+#feature-row {
+  text-align: left;
+}
+
+#feature-row p {
+  color: black;
+  padding-bottom: 40px;
+}
+
+#publications-row {
+  padding-bottom: 40px;
+}
+
+#item-1 {
+  background-image: url('./images/sufrin-image.jpg')
+}
+
+#item-2 {
+  background-image: url('./images/migrants.jpg')
+}
+
+#item-3 {
+  background-image: url('./images/child.jpg')
+}
+.underline {
+  background-image: linear-gradient(to right, #CAB57A, #FEFECB);
+  background-position: 0 1.1em;
+  background-repeat: repeat-x;
+  background-size: 200px 5px;
+}
+
+.attribution-thumbnail {
+  border-radius: 50%;
+  width: 10px;
+}
+
+.attribution-text {
+  margin: 0px;
+  text-align: left;
+}
+
+#attribution-image-container {
+  padding-top: 20px;
+  width: 60px;
+  position: absolute;
+  right: 7%;
+}
+
+.attribution-text-container {
+  margin-top: 20px;
+}
+
+p {
+  color: white;
+  font-family: Lato;
+}
+
+h6 {
+  font-family: Lato;
+  color: white;
+  font-size: .9em;
+}
+
+a {
+  padding: 15px;
+  font-family: Lato;
+  color: white;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: white;
+  font-size: 2.3em;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  color: white;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: #031A66;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  color: #031A66;
+}
+
+.logo {
+  padding: 15px;
+}
+
+.carousel-image {
+  height: 500px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.blocker {
+  height: 80px;
+  background-color: #010C20;
+}
+
+.carousel-quote {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  font-style: italic;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
