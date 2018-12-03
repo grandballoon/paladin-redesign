@@ -102,6 +102,11 @@ body {
   background-size: 200px 5px;
 }
 
+.attribution-container {
+
+  padding-top: 40px;
+}
+
 .attribution-thumbnail {
   border-radius: 50%;
   width: 10px;
@@ -117,6 +122,49 @@ body {
   width: 60px;
   position: absolute;
   right: 7%;
+}
+
+#cuban-row {
+  margin-top: 600px;
+}
+
+#cuban-quote {
+  font-family: "Playfair Display", serif;
+  color: black;
+  text-align: left;
+  font-size: 1.2em;
+
+}
+
+#cuban-img {
+  float: left;
+}
+
+#partners-title {
+  color: #A8D5D4;
+  margin-bottom: 30px;
+}
+
+#partner-logos {
+  padding-bottom: 30px;
+}
+#chaac {
+  height: 35px;
+}
+
+#cuban-text {
+  margin-left: 35px;
+  text-align: left;
+}
+
+#cuban-text p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+#cuban-text p {
+  color: black;
+  padding-top: 10px;
 }
 
 .attribution-text-container {
@@ -189,6 +237,7 @@ h4 {
   font-family: 'Playfair Display', serif;
   font-size: 2em;
   font-style: italic;
+  font-weight: 200;
 }
 
 code {

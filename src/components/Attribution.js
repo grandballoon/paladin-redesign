@@ -15,7 +15,7 @@ const Attribution = (props) => {
           <div className="attribution-text-container col-lg-4">
             <p className="attribution-text">{props.name}</p>
             <p className="attribution-text ">{props.title}</p>
-            <p className="attribution-text">{props.company}</p>
+            <p className="attribution-text"><b>{props.company}</b></p>
           </div>
         </div>
       </div>
